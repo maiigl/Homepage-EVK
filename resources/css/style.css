@@ -1,18 +1,8 @@
 
-@media (max-width: 991px) {
-    .sidebar {
-        background-color: #f5f7fa;
-    }
+.card-img-top {
+    height: 10%; /* Setzen Sie die Höhe auf den gewünschten Wert */
+    width: auto
+
 }
 
-.carousel-item img {
-    height: 600px; /* Setzen Sie die Höhe auf den gewünschten Wert */
-    object-fit: cover; /* Dies bewirkt, dass der Bildinhalt skaliert wird, um den Container soweit wie möglich zu füllen, ohne seine Seitenverhältnis zu brechen */
-    width: 100%; /* Stellt sicher, dass das Bild immer vollständig die Breite ausfüllt */
-}
 
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.8); /* Schwarz mit 50% Deckkraft */
-    border-radius: 10px; /* Optional: Fügt abgerundete Ecken hinzu */
-    padding: 20px; /* Optional: Fügt Innenabstand hinzu */
-}
